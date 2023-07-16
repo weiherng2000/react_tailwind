@@ -1,5 +1,6 @@
-'use client';/* allows us to use usestate and other hooks from react*/
-/*client is to ensure this file on client side*/
+'use client';
+/* allows us to use usestate and other hooks from react */
+/* client is to ensure this file on client side */
 
 import {motion} from 'framer-motion';
 
