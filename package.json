@@ -9,9 +9,6 @@
     "lint": "next lint"
     
   },
-  "eslint": {
-    "ignoreDuringBuilds": true
-  },
   "dependencies": {
     "eslint-config-next": "13.0.3",
     "framer-motion": "^7.6.7",
