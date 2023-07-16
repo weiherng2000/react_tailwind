@@ -35,7 +35,7 @@ export const slideIn = (direction, type, delay, duration) => ({
     },
   },
 });
-
+/*staggerChildren ensures that the children will have a delay of animation between each other*/
 export const staggerContainer = (staggerChildren, delayChildren) => ({
   hidden: {},
   show: {
