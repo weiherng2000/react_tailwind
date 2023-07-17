@@ -8,9 +8,18 @@ import {staggerContainer} from '../utils/motion'; /*utils motion contains some s
 import{exploreWorlds} from '../constants';
 
 /*...world would be the props for the explorecard component*/
+/*world is an object from the exploreWorlds containing the id,imageURL and all other properties*/
 /*...world is to pass in the properties of each object in the exploreWorlds to the ExploreCard */
 /*our section has id explore which clicking on the button in Hero.jsx will bring us to*/
-const Explore = () => (
+import React from 'react'
+
+
+const Explore = () => {
+
+  const[active,setActive] = useState('world-2');
+  
+
+   return (
   <section className = {`${styles.paddings}`} id = "explore">
     <motion.div
      variants={staggerContainer}
@@ -35,6 +44,6 @@ const Explore = () => (
     </div>
     </motion.div>
   </section>
-);
+)}
 
 export default Explore;
