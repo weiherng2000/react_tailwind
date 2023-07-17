@@ -8,6 +8,7 @@ import {slideIn,staggerContainer,textVariant} from '../utils/motion'; /*utils mo
 /*viewport renders the component more than once*/
 /*variants will cause the animation to run on the children*/
 /*we use self closing divs for the gradient colors*/
+/*our explore button has a link to the id explore which will enable us to scroll down */
 const Hero = () => (
   <section className = {`${styles.yPaddings} sm:pl-16 pl-6`}>
      <motion.div variants = {staggerContainer}
