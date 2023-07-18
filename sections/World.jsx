@@ -56,13 +56,38 @@ const World = () => (
                     className = "w-full h-full"
                     />
                 </div>
-                <div className = "absolute top-1/2 left-[25%] overflow-hidden rounded-full shadow-lg">
+                <div  className = "absolute top-[40%] left-[25%] ">
                     <img
                     src = "worldcard.png"
-                    alt = "people"
-                    className = "w-full h-full "
-                    />
+                    alt = "card"
+                    className = "w-[96px] h-[100px] rounded-[24px] lg:w-[216px] lg:h-[150px]"/>
+                    <div className = "flex flex-row absolute top-1/2 left-[10%]">
+                        <img src = "people-04.png"   className = "relative w-[35px] h-[40px]" />
+                        <img src = "people-05.png"   className = "relative w-[35px] h-[40px] right-5" />
+                        <img src = "people-06.png"   className = "relative w-[35px] h-[40px] right-10" />
+                        
+                        <p className = "relative right-5 text-white text-xs hidden lg:block">+264 has joined</p>
+                    </div>
+                    <h1 className = "text-white mt-[-30px] text-center  hidden lg:block">The Upside Down</h1>
                 </div>
+
+                <div  className = "absolute top-[10%] right-[25%] ">
+                    <img
+                    src = "Mask Group.png"
+                    alt = "card"
+                    className = "w-[96px] h-[100px] rounded-[24px] lg:w-[216px] lg:h-[150px]"/>
+                    <div className = "flex flex-row absolute top-1/2 left-[10%]">
+                        <img src = "people-04.png"   className = "relative w-[35px] h-[40px]" />
+                        <img src = "people-05.png"   className = "relative w-[35px] h-[40px] right-5" />
+                        <img src = "people-06.png"   className = "relative w-[35px] h-[40px] right-10" />
+                        
+                        <p className = "relative right-5 text-white text-xs hidden lg:block">+264 has joined</p>
+                    </div>
+                    <h1 className = "text-white mt-[-30px] text-center  hidden lg:block">Hawkins Labs</h1>
+                </div>
+                
+
+                
 
               </motion.div>
 
