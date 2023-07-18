@@ -6,8 +6,10 @@ import styles from '../styles';/*styles is index.js but we export it as styles c
 import {staggerContainer,fadeIn,planetVariants} from '../utils/motion'; /*utils motion contains some specific code for animation*/
 import{startingFeatures} from '../constants';
 
+/*
 const GetStarted = () => (
   <section className = {`${styles.paddings} relative z-10`}>
+
     <motion.div
      variants={staggerContainer}
      inital = "hidden"
@@ -18,17 +20,21 @@ const GetStarted = () => (
 
       <motion.div
        variants = {planetVariants('left')}
-       className = {`flex-1 ${styles.flexCenter}`}>
+       className = {`flex-1 ${styles.flexCenter}`}
+       >
            <img 
            src = "/get-started.png"
            alt = "get-started"
-           className = "w-[90%] h-[90%] object-contain"/>
+           className = "w-[90%] h-[90%] object-contain"
+           />
       </motion.div>
+
       <motion.div 
       variants={fadeIn('left', 'tween',0.2,1)}
       className = "flex-[0.75] flex justify-center flex-col">
 
-        <TypingText title = "| How Metaversus Works"/>
+        <TypingText title = "| How Metaversus Works" />
+
         <TitleText title = {<>Get Started with a few clicks</>} />
         <div className = "mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
           {startingFeatures.map((feature,index) =>(
@@ -44,5 +50,12 @@ const GetStarted = () => (
     </motion.div>
   </section>
 );
+*/
+
+const GetStarted = () => (
+  <section className = {`${styles.paddings} relative z-10`}>
+  </section>
+);
+
 
 export default GetStarted;
