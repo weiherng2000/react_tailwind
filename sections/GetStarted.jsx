@@ -6,18 +6,17 @@ import styles from '../styles';/*styles is index.js but we export it as styles c
 import {staggerContainer,fadeIn,planetVariants} from '../utils/motion'; /*utils motion contains some specific code for animation*/
 import{startingFeatures} from '../constants';
 
-/*
+
 const GetStarted = () => (
   <section className = {`${styles.paddings} relative z-10`}>
-
     <motion.div
-     variants={staggerContainer}
-     inital = "hidden"
-     whileInView= "show"
-     viewport = {{once: 'false' ,amount: 0.25}}
-     className = {`${styles.innerWidth} mx-auto flex
-     lg:flex-row flex-col gap-8`}>
-
+    variants={staggerContainer}
+    initial = "hidden"
+    whileInView = "show"
+    viewport={{ once: false, amount: 0.25}}
+    className = {`${styles.innerWidth} mx-auto flex
+    lg:flex-row flex-col gap-8`}
+    >
       <motion.div
        variants = {planetVariants('left')}
        className = {`flex-1 ${styles.flexCenter}`}
@@ -48,12 +47,6 @@ const GetStarted = () => (
       </motion.div>
 
     </motion.div>
-  </section>
-);
-*/
-
-const GetStarted = () => (
-  <section className = {`${styles.paddings} relative z-10`}>
   </section>
 );
 
